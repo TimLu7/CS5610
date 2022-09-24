@@ -5,4 +5,11 @@ $(document).ready(function(){
         else
             $(".navbar").removeClass("sticky");      
     });
+
+    $(".works").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery:{enable:true}
+    });
 });
+
