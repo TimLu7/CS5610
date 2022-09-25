@@ -11,10 +11,6 @@ $(document).ready(function(){
     });
 
     $(".goTop").click(function(){scroll(0, 0)});
-    // $(".works").magnificPopup({
-    //     delegate: 'a',
-    //     type: 'image',
-    //     gallery:{enable:true}
-    // });
+    
 });
 
