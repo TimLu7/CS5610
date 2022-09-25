@@ -104,7 +104,7 @@ html{
     height: 100vh;
     min-height: 500px;
     background: url(../images/bg4.jpg) no-repeat center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
