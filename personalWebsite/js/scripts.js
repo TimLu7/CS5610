@@ -1,15 +1,20 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if(this.scrollY > 20)
+        if(this.scrollY > 20){
             $(".navbar").addClass("sticky");
-        else
-            $(".navbar").removeClass("sticky");      
+            $(".goTop").fadeIn();
+        }
+        else{
+            $(".navbar").removeClass("sticky");    
+            $(".goTop").fadeIn();
+        }
     });
 
-    $(".works").magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery:{enable:true}
-    });
+    $(".goTop").click(function(){scroll(0, 0)});
+    // $(".works").magnificPopup({
+    //     delegate: 'a',
+    //     type: 'image',
+    //     gallery:{enable:true}
+    // });
 });
 
