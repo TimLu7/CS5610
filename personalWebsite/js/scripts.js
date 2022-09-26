@@ -21,7 +21,6 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 })
 
 myCarousel.addEventListener('slide.bs.carousel', function (e) {
-    // do something...
     if(e.keyCode == '37')
         direction: left
     else if(e.keyCode == '39')
