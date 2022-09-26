@@ -1,16 +1,23 @@
 # Project 1: Your personal home page 
 
-## Description
+## Project Objective 
 
 An home page shows my skills, courses, projects, hobbies.
 ## Class Link 
 https://johnguerra.co/classes/webDevelopment_fall_2022/
-## Project Objective 
+
 
 ## Screenshot 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
+1. main page
+
+![screen shot1](images/snip1.png)
+
+
+2. photo page
+
+![screen shot2](images/snip2.png)
 
 ## Requirements
 
