@@ -14,3 +14,16 @@ $(document).ready(function(){
     
 });
 
+var myCarousel = document.querySelector('#carouselExample')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 1000,
+  wrap: false
+})
+
+myCarousel.addEventListener('slide.bs.carousel', function (e) {
+    // do something...
+    if(e.keyCode == '37')
+        direction: left
+    else if(e.keyCode == '39')
+        direction: right
+})
